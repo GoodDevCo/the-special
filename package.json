@@ -1,0 +1,13 @@
+{
+  "name": "the-special",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Special — crowd-verified daily food deals (static PWA). Tests only; the app itself has zero dependencies.",
+  "scripts": {
+    "test": "playwright test",
+    "serve": "python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0"
+  }
+}
